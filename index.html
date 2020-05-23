@@ -4,38 +4,143 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>DSC Project 1</title>
+    <title>Document</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    <!-- css
-        inline css
-        internal css
-        external css
-    -->
-    <h1 class="header" style="color: rgb(34, 204, 43); font-size: 48px;">Explore More</h1>
-    <hr />
-    <h1 id="normal-header">Hey beautiful people</h1>
-    <h2>Explore More</h2>
-    <br />
+    <div>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container">
+                <a class="navbar-brand" href="#">News Website</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Features</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Pricing</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
 
-    <p style="margin-left: 48px; border-left: 4px ridge maroon; padding-left: 12px;">Lorem ipsum dolor sit amet
-        consectetur adipisicing
-        elit. Odio eum, unde quaerat hic
-        quia deserunt illum aliquam
-        delectus similique obcaecati suscipit eligendi harum, voluptates exercitationem enim. Sint nesciunt impedit eos?
-        Accusantium fuga aspernatur dolores ex veniam molestiae praesentium labore repudiandae debitis sit, expedita
-        assumenda, asperiores facere mollitia, rem tempora perspiciatis quasi velit reiciendis culpa laudantium corporis
-        ipsum ab? Voluptatem, sunt?
-        Dolor vitae cumque omnis voluptatibus ratione vero autem reprehenderit aliquid beatae dicta porro consectetur
-        veniam libero totam minus, quo cupiditate adipisci eius sunt iste magnam quia. Architecto maxime aliquam
-        maiores.</p>
+        <!-- ul: unordered list
+        <ul>
+            <li>aakash</li>
+            <li>goswami</li>
+        </ul>
 
-    <img src="https://images.pexels.com/photos/159652/table-food-book-newspaper-159652.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500"
-        alt="this-is-the-newspaper">
+        <ol>
+            <li>aakash</li>
+            <li>goswami</li>
+        </ol> -->
 
-    <a href="https://dsckiet.netlify.app" target="_blank">Our Website</a>
+        <div class="container mt-4 mb-4">
+            <!-- <h4>News Website</h4>
+
+            <hr /> -->
+            <div class="jumbotron">
+                <h1 class="display-4">Hello, world!</h1>
+                <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra
+                    attention
+                    to featured content or information.</p>
+                <hr class="my-4">
+                <p>It uses utility classes for typography and spacing to space content out within the larger container.
+                </p>
+                <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
+            </div>
+            <div class="card custom-card" style="width: 18rem;">
+                <img src="https://images.pexels.com/photos/952670/pexels-photo-952670.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+                    class="card-img-top" alt="loading">
+                <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                        card's content.</p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+            </div>
+            <br /><br />
+
+            <button class="btn btn-primary">Submit</button>
+            <button class="btn btn-danger">Delete</button>
+            <button class="btn btn-success">Done</button>
+
+            <br /><br />
+
+            <!-- <form>
+                <div class="form-group">
+                    <label for="exampleInputEmail1">Email address</label>
+                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                    <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone
+                        else.</small>
+                </div>
+                <div class="form-group">
+                    <label for="exampleInputPassword1">Password</label>
+                    <input type="password" class="form-control" id="exampleInputPassword1">
+                </div>
+                <div class="form-group form-check">
+                    <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                    <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                </div>
+                <button type="submit" class="btn btn-primary">Submit</button>
+            </form> -->
+
+            <div class="card p-4">
+                <form>
+                    <div class="form-group">
+                        <input type="text" class="form-control" />
+                    </div>
+                    <div class="form-group">
+                        <input type="password" class="form-control" />
+                    </div>
+                    <button class="btn btn-primary submit-button">Submit</button>
+                </form>
+            </div>
+
+            <br /> <br />
+
+            <div class="row">
+                <div class="col-lg-3 col-md-4 col-sm-6 col-12">
+                    <div class="card p-4">
+                        aakash
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-4 col-sm-6 col-12">
+                    <div class="card p-4">
+                        aakash
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-4 col-sm-6 col-12">
+                    <div class="card p-4">
+                        aakash
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-4 col-sm-6 col-12">
+                    <div class="card p-4">
+                        aakash
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 </body>
 
 </html>
