@@ -52,7 +52,7 @@ arr.pop();
 console.log(arr); // [1, 2]
 ```
 
-**Function**
+<li>Function</li>
 
 ```js
 function func1(name) {
