@@ -9,7 +9,7 @@
   <li>null</li>
   <li>undefined</li>
   <li>Symbol</li>
-<ul>
+</ul>
 
 **Complex**
 
